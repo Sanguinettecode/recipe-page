@@ -21,8 +21,13 @@
     font-weight: var(--bold-weight);
 }
 .section--padding {
-    padding: 2.5rem;
+    padding: 0 2.5rem 0 2.5rem;
 }
+
+.section--padding:last-child {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
 h1, h2 {
     font-family: var(--font-Young);
     font-weight: var(--normal-weight);
